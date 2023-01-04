@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import { Slot } from "@radix-ui/react-slot";
 
 import { Span } from "./styles";
 
@@ -15,8 +14,6 @@ const Text: React.FC<TextProps> = ({
   asChild,
   ...props
 }) => {
-  const Component = asChild ? Slot : "span";
-
   return (
     <>
       <Span size={size} {...props}>

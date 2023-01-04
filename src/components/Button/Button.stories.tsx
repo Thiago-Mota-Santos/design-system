@@ -9,7 +9,7 @@ export default {
   },
 } as Meta<ButtonProps>;
 
-export const Small: StoryObj<ButtonProps> = {
+export const Default: StoryObj<ButtonProps> = {
   args: {
     children: "Create Account",
   },
