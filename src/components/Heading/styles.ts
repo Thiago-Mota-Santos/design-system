@@ -7,10 +7,10 @@ const sizes ={
         'font-size': '20px'
     },
     md:{
-        'font-size': '22px'
+        'font-size': '24px'
     },
     lg:{
-        'font-size': '24px'
+        'font-size': '32px'
     }
 }
 
