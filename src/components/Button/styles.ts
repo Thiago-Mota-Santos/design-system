@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 import { ButtonProps } from './index';
 
 export const Container = styled.button<ButtonProps>`
