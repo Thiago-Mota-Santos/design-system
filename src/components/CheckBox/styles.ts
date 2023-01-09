@@ -1,21 +1,7 @@
-/*eslint
-"no-restricted-imports": [
-    "error",
-    {
-      "paths": [{
-        "name": "styled-components",
-        "message": "Please import from styled-components/macro."
-      }],
-      "patterns": [
-        "!styled-components/macro"
-      ]
-    }
-  ]
-  */
 import * as Checkbox from '@radix-ui/react-checkbox'
 import { Check } from 'phosphor-react'
 
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 
 export const CheckBoxRoot = styled(Checkbox.Root)`
