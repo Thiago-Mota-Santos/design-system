@@ -15,7 +15,7 @@ const sizes ={
 }
 
 export const Span = styled.span<TextProps>`
- color: var(--cyan-300);
+ color: white;
  font-size: 16px;
  ${(props) =>sizes[props.size || 'md']}
 `;
