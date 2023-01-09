@@ -1,4 +1,3 @@
-import * as CheckboxPrimary from "@radix-ui/react-checkbox";
 import React from "react";
 import { CheckBoxIndicator, CheckBoxRoot, CheckIcon } from "./styles";
 
