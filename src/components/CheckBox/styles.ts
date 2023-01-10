@@ -1,7 +1,7 @@
 import * as Checkbox from '@radix-ui/react-checkbox'
 import { Check } from 'phosphor-react'
 
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 
 
 export const CheckBoxRoot = styled(Checkbox.Root)`
